@@ -1,0 +1,102 @@
+const projects = [
+  {
+    "id": "kX7mN2pQ9wR4vT6b",
+    "title": "Mask Perlin Noise",
+    "text": "An interactive experiment utilizing Perlin noise algorithms to create organic, fluid masking effects over imagery. The project explores the intersection of mathematical randomness and visual structure.",
+    "teaser": "Organic masking effects driven by Perlin noise algorithms.",
+    "thumbnailImage": "assets/images/thumbs/mask-perlin-noise-thumb.jpg",
+    "mainImage": "assets/images/kv/mask-perlin-noise-main.jpg",
+    "tags": ["generative art", "p5js", "perlin noise", "interactive"],
+    "video": "assets/videos/mask-perlin-noise-video.mpg",
+    "createdAt": "2023-10-12T10:00:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": false,
+    "type": "experiment"
+  },
+  {
+    "id": "yZ3fJ8hK4mN7pQ1r",
+    "title": "Falling Sand",
+    "text": "A particle-based cellular automata simulation where different elements interact based on physics rules. Users can draw sand, water, and walls to see complex behaviors emerge from simple rules.",
+    "teaser": "A classic cellular automata physics simulation.",
+    "thumbnailImage": "assets/images/thumbs/falling-sand-thumb.jpg",
+    "mainImage": "assets/images/kv/falling-sand-main.jpg",
+    "tags": ["physics", "cellular automata", "simulation", "particles"],
+    "video": "assets/videos/falling-sand-video.mpg",
+    "createdAt": "2023-11-05T14:30:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": true,
+    "type": "experiment"
+  },
+  {
+    "id": "bV9cxW2zL5kT8jP4",
+    "title": "Flowfield Colorful",
+    "text": "A vibrant visualization of vector fields where thousands of colorful particles follow underlying noise patterns to create abstract, painterly compositions.",
+    "teaser": "Vibrant particle systems guided by vector flow fields.",
+    "thumbnailImage": "assets/images/thumbs/flowfield-colorful-thumb.jpg",
+    "mainImage": "assets/images/kv/flowfield-colorful-main.jpg",
+    "tags": ["generative art", "vectors", "particles", "color"],
+    "video": "assets/videos/flowfield-colorful-video.mpg",
+    "createdAt": "2023-12-01T09:15:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": false,
+    "type": "experiment"
+  },
+  {
+    "id": "gH6nM3qR8vT1wZ7x",
+    "title": "Body Segmentation Dots",
+    "text": "Using MediaPipe or TensorFlow.js, this project tracks human silhouettes in real-time and replaces the form with a dynamic grid of interactive dots.",
+    "teaser": "Real-time body tracking rendered through generative dots.",
+    "thumbnailImage": "assets/images/thumbs/body-segmentation-dots-thumb.jpg",
+    "mainImage": "assets/images/kv/body-segmentation-dots-main.jpg",
+    "tags": ["machine learning", "pose detection", "computer vision", "interactive"],
+    "video": "assets/videos/body-segmentation-dots-video.mpg",
+    "createdAt": "2024-01-15T16:45:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": true,
+    "type": "project"
+  },
+  {
+    "id": "dL4kP9jB2mC5nF8v",
+    "title": "Body Segmentation BG",
+    "text": "A computer vision experiment that isolates the user from their background in real-time, allowing for creative background replacement and visual effects.",
+    "teaser": "AI-powered real-time background removal and replacement.",
+    "thumbnailImage": "assets/images/thumbs/body-segmentation-bg-thumb.jpg",
+    "mainImage": "assets/images/kv/body-segmentation-bg-main.jpg",
+    "tags": ["machine learning", "computer vision", "webcam", "segmentation"],
+    "video": "assets/videos/body-segmentation-bg-video.mpg",
+    "createdAt": "2024-01-20T11:20:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": true,
+    "type": "project"
+  },
+  {
+    "id": "fQ1wR7zX4kT6mP9b",
+    "title": "Painters Dots",
+    "text": "An interactive digital canvas that transforms mouse movements or images into a series of pointillist dots, mimicking a physical painting style through code.",
+    "teaser": "A pointillism-inspired interactive painting tool.",
+    "thumbnailImage": "assets/images/thumbs/painters-dots-thumb.jpg",
+    "mainImage": "assets/images/kv/painters-dots-main.jpg",
+    "tags": ["canvas", "brush effects", "pointillism", "creative tool"],
+    "video": "assets/videos/painters-dots-video.mpg",
+    "createdAt": "2024-02-05T08:00:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": false,
+    "type": "experiment"
+  },
+  {
+    "id": "tN8vC3jL6kW5mQ2p",
+    "title": "WebAlz",
+    "text": "A web-based data visualization or interactive tool designed for accessibility and technical analysis, providing a clean interface for complex data sets.",
+    "teaser": "Interactive web-based data visualization tool.",
+    "thumbnailImage": "assets/images/thumbs/webalz-thumb.jpg",
+    "mainImage": "assets/images/kv/webalz-main.jpg",
+    "tags": ["data viz", "web tool", "analysis", "ui-ux"],
+    "video": "assets/videos/webalz-video.mpg",
+    "createdAt": "2024-02-10T13:00:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": true,
+    "type": "project"
+  }
+]
+
+export default projects
