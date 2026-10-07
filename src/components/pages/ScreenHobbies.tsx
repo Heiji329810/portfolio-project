@@ -76,12 +76,15 @@ export function ScreenHobbies() {
   <br />
   This is a video of me in a competition. I also got my national level 3 certificate for 100 meters freestyle.
 </h5>
+<div className="mx-auto mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">
 <video
   src="/images/swimming/swimming.mp4"
   controls
   playsInline
-  className="mx-auto mb-8 w-1/2"
+  className="mx-auto mb-8 w-full"
 />
+<img src="/images/swimming/swimming.png" alt="Swimming" className="mx-auto mb-8 w-full" />
+</div>
     
 <h1 className="mb-8 text-xl font-bold text-stone-800">Animations</h1>
 <h5 className="mb-8 text-stone-800"> I am a fan of Detective Conan and Slam Dunk. They are amazing animations. I watch them since a very young age. My interest in them also led me to read more about crime fiction and fall in love with different sports. I always watch sport matches and try different sports. I also 3D printed a 3D card of a character: Hattori Heiji.</h5>

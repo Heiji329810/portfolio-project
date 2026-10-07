@@ -115,6 +115,13 @@ export function ScreenExploration() {
           </div>
         </div>
         </div>
+        <div className="p-10">
+        <h5 className="mb-6 text-xl">In the end, we chose the truss built by one of our teammates, which is like an arch. And after that we started building.</h5>
+        <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
+          <img src="/images/JHU/mouse-trap.jpg" alt="Mouse trap" className="mx-auto max-h-80 w-full object-contain" />
+          <img src="/images/JHU/box.jpg" alt="Mouse trap" className="mx-auto max-h-80 w-full object-contain" />
+        </div>
+        </div>
     </div>
   )
 }
