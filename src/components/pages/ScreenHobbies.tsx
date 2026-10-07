@@ -85,7 +85,7 @@ export function ScreenHobbies() {
 />
 <img src="/images/swimming/swimming.png" alt="Swimming" className="mx-auto mb-8 w-full" />
 </div>
-    
+
 <h1 className="mb-8 text-xl font-bold text-stone-800">Animations</h1>
 <h5 className="mb-8 text-stone-800"> I am a fan of Detective Conan and Slam Dunk. They are amazing animations. I watch them since a very young age. My interest in them also led me to read more about crime fiction and fall in love with different sports. I always watch sport matches and try different sports. I also 3D printed a 3D card of a character: Hattori Heiji.</h5>
       <div className="flex gap-8">

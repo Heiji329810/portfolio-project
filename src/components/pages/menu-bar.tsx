@@ -60,24 +60,24 @@ export const MenuBar = () => {
               >
                 Digital Projects
               </a>
-              <a
+              {/* <a
                 href="/cathouse"
                 className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/cathouse")}`}
               >
                 Cat House
-              </a>
+              </a> */}
               <a
                 href="/explorations"
                 className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/explorations")}`}
               >
                 Explorations
               </a>
-              <a
+              {/* <a
                 href="/contact"
                 className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/contact")}`}
               >
                 Contact
-              </a>
+              </a> */}
             </nav>
           </MotionDrawer>
         </div>
@@ -117,15 +117,15 @@ export const MenuBar = () => {
             <a href="/projects" className={`hover:text-black transition ${pageLinkClass("/projects")}`}>
               Digital Projects
             </a>
-            <a href="/cathouse" className={`hover:text-black transition ${pageLinkClass("/cathouse")}`}>
+            {/* <a href="/cathouse" className={`hover:text-black transition ${pageLinkClass("/cathouse")}`}>
               Cat House
-            </a>
+            </a> */}
             <a href="/explorations" className={`hover:text-black transition ${pageLinkClass("/explorations")}`}>
               Explorations
             </a>
-            <a href="/contact" className={`hover:text-black transition ${pageLinkClass("/contact")}`}>
+            {/* <a href="/contact" className={`hover:text-black transition ${pageLinkClass("/contact")}`}>
               Contact
-            </a>
+            </a> */}
           </TimelineAnimation>
         </header>
       )}

@@ -88,10 +88,11 @@ export function ScreenExploration() {
         <div className="p-10">
         <h1 className="mb-6 text-2xl font-bold">Spaghetti Bridge</h1>
         <h5 className="mb-6 text-xl">In groups of four, we built a spaghetti bridge. For preparation, we did 3 different labs, the tension lab, the buckling lab, and the bending lab.</h5>
-        <div className="mx-auto mb-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="mx-auto mb-10 grid grid-cols-1 gap-6 md:grid-cols-4">
           <img src="/images/JHU/bending-lab.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
           <img src="/images/JHU/tension-lab.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
           <img src="/images/JHU/tension-lab2.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
+          <img src="/images/JHU/epoxy.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
         </div>
         <h5 className="mb-6 text-xl">Those labs were done to make sure we understand the strength of different spaghetti and how to use them as different components of a bridge. And then, we come to the stage to brainstorm different trusses and find out the truss that can hold the greatest weight. These are some of the bridges prototypes we did. </h5>
         <div className="mx-auto mb-10 flex flex-col gap-10">
@@ -114,12 +115,16 @@ export function ScreenExploration() {
             <img src="/images/JHU/spa-10.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
           </div>
         </div>
-        </div>
-        <div className="p-10">
         <h5 className="mb-6 text-xl">In the end, we chose the truss built by one of our teammates, which is like an arch. And after that we started building.</h5>
-        <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
-          <img src="/images/JHU/mouse-trap.jpg" alt="Mouse trap" className="mx-auto max-h-80 w-full object-contain" />
-          <img src="/images/JHU/box.jpg" alt="Mouse trap" className="mx-auto max-h-80 w-full object-contain" />
+        <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
+          <img src="" alt="TALIA's" className="mx-auto max-h-80 w-full object-contain" />
+          <img src="/images/JHU/spaghetti-bridge2.jpg" alt="spaghetti bridge" className="mx-auto max-h-80 w-full object-contain" />
+          <img src="/images/JHU/spaghetti-bridge5.jpg" alt="spaghetti bridge" className="mx-auto max-h-80 w-full object-contain" />
+          </div>
+          <h5 className="mb-6 text-xl">We actually built two bridges. On the left is the usable bridge that we built, which can hold about 6kg of weight, and we also built a smaller bridge for a memorial. We named the larger one the little bridge that could, and the smaller one the tiny bridge that could. On the right is a photo of me with the tiny bridge.</h5>
+          <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
+          <img src="/images/JHU/spaghetti-bridge.jpg" alt="spaghetti bridge" className="mx-auto max-h-80 w-full object-contain" />
+          <img src="/images/JHU/spaghetti.jpg" alt="spaghetti bridge" className="mx-auto max-h-80 w-full object-contain" />
         </div>
         </div>
     </div>
