@@ -93,11 +93,26 @@ export function ScreenExploration() {
           <img src="/images/JHU/tension-lab.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
           <img src="/images/JHU/tension-lab2.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
         </div>
-        <h5 className="mb-6 text-xl">Those labs were done to make sure we understand the strength of different spaghetti and how to use them as different components of a bridge.</h5>
-        <div className="mx-auto mb-10 grid grid-cols-1 gap-6 md:grid-cols-3">
-          <img src="/images/JHU/bending-lab.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
-          <img src="/images/JHU/tension-lab.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
-          <img src="/images/JHU/tension-lab2.jpg" alt="Spaghetti Bridge" className="mx-auto max-h-80 w-full object-contain" />
+        <h5 className="mb-6 text-xl">Those labs were done to make sure we understand the strength of different spaghetti and how to use them as different components of a bridge. And then, we come to the stage to brainstorm different trusses and find out the truss that can hold the greatest weight. These are some of the bridges prototypes we did. </h5>
+        <div className="mx-auto mb-10 flex flex-col gap-10">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <img src="/images/JHU/spa-8.png" alt="Spaghetti truss" className="mx-auto max-h-80 w-full object-contain" />
+            <img src="/images/JHU/spa-1.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
+          </div>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <img src="/images/JHU/spa-2.png" alt="Spaghetti truss" className="mx-auto max-h-80 w-full object-contain" />
+            <img src="/images/JHU/spa-7.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
+          </div>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <img src="/images/JHU/spa-9.png" alt="Spaghetti truss" className="mx-auto max-h-80 w-full object-contain" />
+            <img src="/images/JHU/spa-4.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
+          </div>
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-4">
+            <img src="/images/JHU/spa-5.png" alt="Spaghetti truss" className="mx-auto max-h-80 w-full object-contain" />
+            <img src="/images/JHU/spa-3.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
+            <img src="/images/JHU/spa-6.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
+            <img src="/images/JHU/spa-10.png" alt="Spaghetti truss force calculation" className="mx-auto max-h-80 w-full object-contain" />
+          </div>
         </div>
         </div>
     </div>
