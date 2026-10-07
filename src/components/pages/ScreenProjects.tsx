@@ -14,8 +14,8 @@ export function ScreenProjects() {
   return (
     <div className="p-10">
       <h1 className="mb-6 text-2xl font-bold">Projects</h1>
-      <h5 className="mb-6 text-2xl font-bold">These are some fun projects that I did, with p5 and ml5. They are my creations and explorations on digital art projectsthat are based on algorithms and math principles. I also included two websites that I did, for my friend and my school. I really like them, especially for my websites, the falling sand project and the flowfield paintings.</h5>
-      <div className="grid grid-cols-3 gap-6">
+      <h5 className="mb-6 text-xl">These are some fun projects that I did, with p5 and ml5. They are my creations and explorations on digital art projects that are based on algorithms and math principles. I also included two websites that I did, for my friend and my school. I really like them, especially for my websites, the falling sand project and the flowfield paintings.</h5>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         {projects.map((project) => {
           return (
             <Card key={project.id} className="overflow-hidden pt-0">

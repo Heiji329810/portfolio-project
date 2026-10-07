@@ -19,7 +19,7 @@ export function ScreenHome() {
         really like building things, helping people, and nature around me. I hope
         to major in engineering to help more people in the future.
       </h5>
-      <div className="grid grid-cols-3 gap-6 px-10 pb-10">
+      {/* <div className="grid grid-cols-3 gap-6 px-10 pb-10">
         {homePictures.map((item) => {
           return (
             <div key={item.title}>
@@ -29,7 +29,7 @@ export function ScreenHome() {
             </div>
           )
         })}
-      </div>
+      </div> */}
     </div>
   )
 }

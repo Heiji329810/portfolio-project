@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import { useLocation } from 'react-router'
 import { Apple, ArrowDownCircle } from 'lucide-react'
 import { TimelineAnimation } from '@/components/ui/timeline-animation'
 import { useMediaQuery } from '@/components/use-media-query'
@@ -7,6 +8,10 @@ import MotionDrawer from '@/components/ui/motion-drawer'
 export const MenuBar = () => {
     const timelineRef = useRef<HTMLDivElement>(null)
     const isMobile = useMediaQuery('(max-width: 768px)')
+    const location = useLocation()
+
+    const pageLinkClass = (path: string) =>
+      location.pathname === path ? 'font-bold' : 'font-normal'
 
     return(
     <section
@@ -40,40 +45,40 @@ export const MenuBar = () => {
               </div>
               <a
                 href="/"
-                className="block p-2 hover:bg-neutral-200 hover:text-black rounded-sm"
+                className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/")}`}
               >
                 Home
               </a>
               <a
                 href="/hobbies"
-                className="block p-2 hover:bg-neutral-200 hover:text-black rounded-sm"
+                className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/hobbies")}`}
               >
                 Hobbies
               </a>
               <a
                 href="/projects"
-                className="block p-2 hover:bg-neutral-200 hover:text-black rounded-sm"
+                className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/projects")}`}
               >
                 Digital Projects
               </a>
-              <a
+              {/* <a
                 href="/cathouse"
-                className="block p-2 hover:bg-neutral-200 hover:text-black rounded-sm"
+                className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/cathouse")}`}
               >
                 Cat House
-              </a>
+              </a> */}
               <a
                 href="/explorations"
-                className="block p-2 hover:bg-neutral-200 hover:text-black rounded-sm"
+                className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/explorations")}`}
               >
                 Explorations
               </a>
-              <a
+              {/* <a
                 href="/contact"
-                className="block p-2 hover:bg-neutral-200 hover:text-black rounded-sm"
+                className={`block p-2 hover:bg-neutral-200 hover:text-black rounded-sm ${pageLinkClass("/contact")}`}
               >
                 Contact
-              </a>
+              </a> */}
             </nav>
           </MotionDrawer>
         </div>
@@ -102,26 +107,26 @@ export const MenuBar = () => {
             as="nav"
             timelineRef={timelineRef}
             animationNum={1}
-            className="hidden md:flex items-center gap-10 text-sm text-neutral-800 font-semibold"
+            className="hidden md:flex items-center gap-10 text-sm text-neutral-800"
           >
-            <a href="/" className="hover:text-black transition">
+            <a href="/" className={`hover:text-black transition ${pageLinkClass("/")}`}>
               Home
             </a>
-            <a href="/hobbies" className="hover:text-black transition">
+            <a href="/hobbies" className={`hover:text-black transition ${pageLinkClass("/hobbies")}`}>
               Hobbies
             </a>
-            <a href="/projects" className="hover:text-black transition">
+            <a href="/projects" className={`hover:text-black transition ${pageLinkClass("/projects")}`}>
               Digital Projects
             </a>
-            <a href="/cathouse" className="hover:text-black transition">
+            {/* <a href="/cathouse" className={`hover:text-black transition ${pageLinkClass("/cathouse")}`}>
               Cat House
-            </a>
-            <a href="/explorations" className="hover:text-black transition">
+            </a> */}
+            <a href="/explorations" className={`hover:text-black transition ${pageLinkClass("/explorations")}`}>
               Explorations
             </a>
-            <a href="/contact" className="hover:text-black transition">
+            {/* <a href="/contact" className={`hover:text-black transition ${pageLinkClass("/contact")}`}>
               Contact
-            </a>
+            </a> */}
           </TimelineAnimation>
         </header>
       )}
