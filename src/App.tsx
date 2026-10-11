@@ -4,7 +4,6 @@ import { ScreenHome } from "./components/pages/ScreenHome";
 import { ScreenProjects } from "./components/pages/ScreenProjects";
 
 import { MenuBar } from "./components/pages/menu-bar";
-import { AboutECommerce } from "./components/pages/about-ecommerse";
 import { ScreenCathouse } from "./components/pages/ScreenCathouse";
 import { ScreenExploration } from "./components/pages/ScreenExploration";
 import { ScreenContact } from "./components/pages/ScreenContact";

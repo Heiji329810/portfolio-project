@@ -1,11 +1,5 @@
 import selfie from "../../assets/homepage/selfie.png"
 
-const homePictures = [
-  { title: "Falling Sand" },
-  { title: "Body Segmentation Dots" },
-  { title: "" },
-]
-
 export function ScreenHome() {
   return (
     <div className="w-full bg-sky-950">

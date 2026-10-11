@@ -1,6 +1,5 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import { useLocation } from 'react-router'
-import { Apple, ArrowDownCircle } from 'lucide-react'
 import { TimelineAnimation } from '@/components/ui/timeline-animation'
 import { useMediaQuery } from '@/components/use-media-query'
 import MotionDrawer from '@/components/ui/motion-drawer'

@@ -1,13 +1,3 @@
-import { useState } from "react"
-import projects from "../../data/projects"
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card"
-
 export function ScreenExploration() {
 
   return (
