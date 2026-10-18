@@ -1,5 +1,6 @@
 import { useState } from "react"
 import paintings from "../../data/paintings"
+import { publicAsset } from "@/lib/utils"
 
 const frames = [
   "border-[8px] border-amber-800 bg-white p-2",
@@ -30,7 +31,7 @@ export function ScreenHobbies() {
               >
                 <div className={frames[index % frames.length]}>
                   <img
-                    src={painting.image || painting.thumbnailImage}
+                    src={publicAsset(painting.image || painting.thumbnailImage)}
                     alt={painting.title}
                     className="h-auto w-full"
                   />
@@ -60,7 +61,7 @@ export function ScreenHobbies() {
               Close
             </button>
             <img
-              src={openPainting.image || openPainting.thumbnailImage}
+              src={publicAsset(openPainting.image || openPainting.thumbnailImage)}
               alt={openPainting.title}
               className="mb-4 max-h-72 w-full object-contain"
             />
@@ -78,12 +79,12 @@ export function ScreenHobbies() {
 </h5>
 <div className="mx-auto mb-10 grid grid-cols-1 gap-6 md:grid-cols-2">
 <video
-  src="/images/swimming/swimming.mp4"
+  src={publicAsset("/images/swimming/swimming.mp4")}
   controls
   playsInline
   className="mx-auto mb-8 w-full"
 />
-<img src="/images/swimming/swimming.png" alt="Swimming" className="mx-auto mb-8 w-full" />
+<img src={publicAsset("/images/swimming/swimming.png")} alt="Swimming" className="mx-auto mb-8 w-full" />
 </div>
 
 <h1 className="mb-8 text-xl font-bold text-stone-800">Animations</h1>
@@ -91,14 +92,14 @@ export function ScreenHobbies() {
       <div className="flex gap-8">
         <div className="relative w-1/2 bg-neutral-200">
           <img
-            src="/images/animations/conan.png"
+            src={publicAsset("/images/animations/conan.png")}
             alt="loading..."
             className="size-full object-cover"
           />
         </div>
         <div className="relative w-1/2 bg-neutral-200">
           <img
-            src="/images/animations/slam-dunk.png"
+            src={publicAsset("/images/animations/slam-dunk.png")}
             alt="loading..."
             className="size-full object-cover"
           />

@@ -1,5 +1,6 @@
 import { useState } from "react"
 import projects from "../../data/projects"
+import { publicAsset } from "@/lib/utils"
 import {
   Card,
   CardHeader,
@@ -21,7 +22,7 @@ export function ScreenProjects() {
             <Card key={project.id} className="overflow-hidden pt-0">
               <div className="relative h-72 w-full bg-neutral-200">
                 <img
-                  src={project.thumbnailImage}
+                  src={publicAsset(project.thumbnailImage)}
                   alt={project.title}
                   className="size-full object-cover"
                 />
@@ -93,7 +94,7 @@ export function ScreenProjects() {
             </button>
             {/* Put your video file in the "video" field in projects.js */}
             <video
-              src={openVideo.video || undefined}
+              src={openVideo.video ? publicAsset(openVideo.video) : undefined}
               controls
               className="size-full object-contain"
             />

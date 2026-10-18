@@ -1,3 +1,5 @@
+import { publicAsset } from "@/lib/utils"
+
 export function ScreenCathouse() {
   return (
     <div className="p-10">
@@ -13,17 +15,17 @@ export function ScreenCathouse() {
           <p className="mb-4">I built the hardware for the cat house using a temperature and humidity sensor, a relay, and a ultrasonic sensor. Because the purpose of building the cat house is to detect cats' entering and heat up the house when there is a cat and the temperature is lower than 20˚C. So the detection of movements at the door needs to be detected by a sensor, the temperature needed to be measured, and there has to be a camera to see that a cat has came in. Therefore, I used a ESP32S3 that has a camera to record the images. For motion detecting, I first tried to use a PIR sensor, but it was not sensitive enough. So I finally used a ultrasonic sensor instead. When I was trying to connect them together, I found that the sensors could not work together. They can only work separately. So I had to reconnected them so they do not interfere with each other, and finally it worked.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
           <img
-            src="/images/cathouse/temp-humid.jpg"
+            src={publicAsset("/images/cathouse/temp-humid.jpg")}
             alt="Temperature and humidity"
             className="mx-auto max-h-80 w-auto object-contain"
           />
           <img
-            src="/images/cathouse/hardware-building.jpg"
+            src={publicAsset("/images/cathouse/hardware-building.jpg")}
             alt="Ultrasonic sensor"
             className="mx-auto max-h-80 w-auto object-contain"
           />
           <img
-            src="/images/cathouse/hardware-success.jpg"
+            src={publicAsset("/images/cathouse/hardware-success.jpg")}
             alt="Temperature and humidity"
             className="mx-auto max-h-80 w-auto object-contain"
           />
@@ -37,12 +39,12 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
           <img
-            src="/images/cathouse/wires-connecting.jpg"
+            src={publicAsset("/images/cathouse/wires-connecting.jpg")}
             alt="Cat house paper"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/sensor-connection.jpg"
+            src={publicAsset("/images/cathouse/sensor-connection.jpg")}
             alt="Temperature and humidity"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -56,17 +58,17 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
           <img
-            src="/images/cathouse/XPS-structure.jpg"
+            src={publicAsset("/images/cathouse/XPS-structure.jpg")}
             alt="Ultrasonic sensor"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/half-paper.jpg"
+            src={publicAsset("/images/cathouse/half-paper.jpg")}
             alt="Sensor connection"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/sticker-half.jpg"
+            src={publicAsset("/images/cathouse/sticker-half.jpg")}
             alt="Sensor connection"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -80,12 +82,12 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
           <img
-            src="/images/cathouse/sticker-2.jpg"
+            src={publicAsset("/images/cathouse/sticker-2.jpg")}
             alt="Wires connecting"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/altrasonic-sensor.jpg"
+            src={publicAsset("/images/cathouse/altrasonic-sensor.jpg")}
             alt="Temperature and humidity"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -99,17 +101,17 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
           <img
-            src="/images/cathouse/building.jpg"
+            src={publicAsset("/images/cathouse/building.jpg")}
             alt="Building"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/half-done.jpg"
+            src={publicAsset("/images/cathouse/half-done.jpg")}
             alt="Half done"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/half-done2.jpg"
+            src={publicAsset("/images/cathouse/half-done2.jpg")}
             alt="Half done 2"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -123,12 +125,12 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
           <img
-            src="/images/cathouse/model-testing.png"
+            src={publicAsset("/images/cathouse/model-testing.png")}
             alt="Model testing"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/model-testing2.png"
+            src={publicAsset("/images/cathouse/model-testing2.png")}
             alt="Model testing 2"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -142,12 +144,12 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
           <img
-            src="/images/cathouse/final-testing.jpg"
+            src={publicAsset("/images/cathouse/final-testing.jpg")}
             alt="Final testing"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/raspberry-pi.jpg"
+            src={publicAsset("/images/cathouse/raspberry-pi.jpg")}
             alt="Raspberry Pi"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -161,17 +163,17 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
           <img
-            src="/images/cathouse/testing-done.jpg"
+            src={publicAsset("/images/cathouse/testing-done.jpg")}
             alt="Building"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/final.jpg"
+            src={publicAsset("/images/cathouse/final.jpg")}
             alt="Half done"
             className="mx-auto max-h-80 w-full object-contain"
           />
           <img
-            src="/images/cathouse/testing-2.jpg"
+            src={publicAsset("/images/cathouse/testing-2.jpg")}
             alt="Half done 2"
             className="mx-auto max-h-80 w-full object-contain"
           />
@@ -185,7 +187,7 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-1">
             <img
-              src="/images/cathouse/use.png"
+              src={publicAsset("/images/cathouse/use.png")}
               alt="Building"
               className="mx-auto max-h-80 w-full object-contain"
             />

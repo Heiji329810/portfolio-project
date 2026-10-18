@@ -5,7 +5,8 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/portfolio-project/",
+  // GitHub Pages serves this repo at /portfolio-project/. Local dev stays at /.
+  base: process.env.GITHUB_ACTIONS ? "/portfolio-project/" : "/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
