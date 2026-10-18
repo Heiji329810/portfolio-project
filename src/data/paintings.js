@@ -2,7 +2,7 @@ const paintings = [
 {
   "id": "a7Kp2Lm9Qx4Vr8Nc",
   "title": "An Adventure",
-  "text": "A digital painting exploring color, texture, and composition through layered shapes and expressive marks. The piece focuses on the relationship between controlled structure and spontaneous visual movement.",
+  "text": "This is an adventure to the forest. Some kids went into the forest and found this skeleton. From this painting, I was imagining what will happen in the future, when human occupation of this world has ",
   "teaser": "A study of color, texture, and expressive digital marks.",
   "thumbnailImage": "images/paintings/adventure.jpg",
   "image": "images/paintings/adventure.jpg"

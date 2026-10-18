@@ -29,7 +29,7 @@ export const MenuBar = () => {
           >
             <nav className="space-y-4 ">
               <div className="flex items-center gap-2 text-black">
-                <span>Cici's portfolio</span>
+                <span>Cici's universe</span>
               </div>
               <Link
                 to="/"
@@ -75,6 +75,9 @@ export const MenuBar = () => {
       {/* Navbar */}
       {!isMobile && (
         <header className="relative z-10 w-full max-w-7xl mx-auto px-10 py-10 flex items-center justify-end">
+          <div className="flex items-center gap-2 text-black mr-145">
+            <span>Cici's UNIVERSE</span>
+          </div>
           <TimelineAnimation
             as="nav"
             timelineRef={timelineRef}
