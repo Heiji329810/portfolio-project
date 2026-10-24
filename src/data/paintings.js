@@ -2,7 +2,7 @@ const paintings = [
 {
   "id": "a7Kp2Lm9Qx4Vr8Nc",
   "title": "An Adventure",
-  "text": "This is an adventure to the forest. Some kids went into the forest and found this skeleton. From this painting, I was imagining what will happen in the future, when human occupation of this world has ",
+  "text": "This is an adventure to the forest. Some kids went into the forest and found this skeleton. From this painting, I was imagining what will happen in the future, when there are less people and we discover ourselves deeply connected to nature again.",
   "teaser": "A study of color, texture, and expressive digital marks.",
   "thumbnailImage": "images/paintings/adventure.jpg",
   "image": "images/paintings/adventure.jpg"
@@ -11,7 +11,7 @@ const paintings = [
 {
   "id": "m4Tq8Zr1Np6Yw3Ks",
   "title": "Trash & City",
-  "text": "A colorful digital composition built through overlapping forms and carefully balanced tones. The painting uses contrast and repetition to create depth and visual rhythm.",
+  "text": "This is a painting of a city surrounded by trash. It was inspired by the news that I saw showing landfill installations around cities. Even though the cities look amazing and modern, trash produced by humans are always around, further causing more pollution. So I made the city and the trash around like a target, and added a dart that it placed directly in the middle of the city, trying to tell people that the effect of the trash will come to us sooner or later, so we have to protect our environment and learn to recycle.",
   "teaser": "A colorful composition built from contrast and repetition.",
   "thumbnailImage": "images/paintings/polluted-city.jpg",
   "image": "images/paintings/polluted-city.jpg"
@@ -20,7 +20,7 @@ const paintings = [
 {
   "id": "v9Cx3Lm7Rq2Pk5Ta",
   "title": "Autumn",
-  "text": "An abstract digital painting that combines flowing shapes with layered colors to create a sense of movement. The work explores how simple forms can produce complex visual relationships.",
+  "text": "This is a painting of the scene in front of my house. The bushes were still green, but the leaves have turned yellow. I was recording that time of autumn.",
   "teaser": "Abstract forms and layered colors create a sense of movement.",
   "thumbnailImage": "images/paintings/autumn.jpg",
   "image": "images/paintings/autumn.jpg"
@@ -29,7 +29,7 @@ const paintings = [
 {
   "id": "b2Wn6Kp8Yt4Qm9Rx",
   "title": "Happy Halloween",
-  "text": "A digital study of light and color that uses gradual transitions and layered forms to create atmosphere. The composition emphasizes balance between soft areas and stronger visual accents.",
+  "text": "This is a painting celebrating Halloween. It was how I imagined if I was a ghost, and traveled through a forest during Halloween and saw bats flying around.",
   "teaser": "A study of light, color, and atmospheric composition.",
   "thumbnailImage": "images/paintings/halloween.jpg",
   "image": "images/paintings/halloween.jpg"
@@ -38,7 +38,7 @@ const paintings = [
 {
   "id": "r5Jm8Vx2Nc7Qp4Ls",
   "title": "Devil and Woods",
-  "text": "An expressive digital painting created through repeated marks, shapes, and color layers. The work explores rhythm and repetition while maintaining an organic overall composition.",
+  "text": "This is a painting showing how people are damaging the forest. It was inspired by the news of the Australia forest fires that caused the koalas and kangaroos to lose their homes. I made the shadow of the ",
   "teaser": "Expressive marks and repeated forms create visual rhythm.",
   "thumbnailImage": "images/paintings/devil-and-forest.jpg",
   "image": "images/paintings/devil-and-forest.jpg"
