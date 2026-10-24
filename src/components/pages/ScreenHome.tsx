@@ -42,7 +42,7 @@ export function ScreenHome() {
               </h1>
               <p className="mt-4 text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
                 Hello! I&apos;m a Chinese girl who likes building things, helping
-                people, and the nature around me. I hope to major in engineering
+                people, and blending in the nature around me. I hope to major in engineering
                 so I can help more people in the future.
               </p>
             </div>

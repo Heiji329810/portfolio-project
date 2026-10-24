@@ -4,8 +4,16 @@ export function ScreenCathouse() {
   return (
     <div className="p-10">
       <h1 className="mb-8 text-2xl font-bold">Cat House</h1>
-      <h5 className="mb-6 text-xl">In my community, there are a lot of stray cats and needed many people to rescue and take care of them. In winter, many stray cats can't survive because of the cold, and it is also sometimes difficult for the rescuers to find them, and organize them. Therefore, I built a cat house for stray cats using a temperature and humidity sensor and a ultrasonic sensor. I also used ESP323 with a camera to take photos of the cats and send them to a model I trained to detect if there is a cat in the house. If the result is true, and the temperature in the cat house is lower than 20˚C, the heating pad will be turned on by the relay which receives signals from ESP32S3 directly. I used a Raspberry Pi to read the data from the sensors, and serve as a wifi hotspot to connect to the camera, and serve as a web server to record logs and send them to DeepSeek everyday for daily report. In this way, I hope to not only improve the living conditions of the stray cats, but also help the rescuers to find them and take care of them more easily.</h5>
-
+      <div className="mb-6 grid grid-cols-1 gap-8 md:grid-cols-2">
+        <h5 className="text-xl">In my community, there are a lot of stray cats and needed many people to rescue and take care of them. In winter, many stray cats can't survive because of the cold, and it is also sometimes difficult for the rescuers to find them, and organize them. Therefore, I built a cat house for stray cats using a temperature and humidity sensor and a ultrasonic sensor. I also used ESP323 with a camera to take photos of the cats and send them to a model I trained to detect if there is a cat in the house. If the result is true, and the temperature in the cat house is lower than 20˚C, the heating pad will be turned on by the relay which receives signals from ESP32S3 directly. I used a Raspberry Pi to read the data from the sensors, and serve as a wifi hotspot to connect to the camera, and serve as a web server to record logs and send them to DeepSeek everyday for daily report. In this way, I hope to not only improve the living conditions of the stray cats, but also help the rescuers to find them and take care of them more easily.</h5>
+        <div className="relative min-h-64 md:min-h-0">
+          <img
+            src={publicAsset("/images/cathouse/clear-final.jpg")}
+            alt="Clear final"
+            className="w-full object-contain md:absolute md:inset-0 md:h-full md:w-full"
+          />
+        </div>
+      </div>
       <div className="p-10">
       <div className="relative ml-32 border-l-[6px] border-sky-400 pl-8">
         <div className="relative pb-10">
@@ -187,7 +195,7 @@ export function ScreenCathouse() {
           <p className="mb-4">Add your text here.</p>
           <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-1">
             <img
-              src={publicAsset("/images/cathouse/use.png")}
+              src={publicAsset("/images/cathouse/clear-final.jpg")}
               alt="Building"
               className="mx-auto max-h-80 w-full object-contain"
             />
