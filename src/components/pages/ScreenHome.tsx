@@ -37,9 +37,6 @@ export function ScreenHome() {
         <div className="relative flex h-full items-end">
           <div className="mx-auto w-full max-w-[1600px] px-6 pb-10 sm:px-10 sm:pb-14">
             <div className="max-w-xl">
-              <p className="text-xs font-medium tracking-[0.22em] text-amber-200 uppercase sm:text-sm">
-                Chongqing · the city of hot pot
-              </p>
               <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-6xl">
                 Hanxi Xiao
               </h1>

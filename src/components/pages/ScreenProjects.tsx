@@ -19,7 +19,7 @@ export function ScreenProjects() {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
         {projects.map((project) => {
           return (
-            <Card key={project.id} className="overflow-hidden pt-0">
+            <Card key={project.id} className="overflow-hidden border-neutral-800 bg-black pt-0 text-white">
               <div className="relative h-72 w-full bg-neutral-200">
                 <img
                   src={publicAsset(project.thumbnailImage)}
@@ -62,7 +62,7 @@ export function ScreenProjects() {
                     )
                   })}
                 </div>
-                <CardDescription>{project.teaser}</CardDescription>
+                <CardDescription className="text-neutral-300">{project.teaser}</CardDescription>
               </CardHeader>
               <CardContent>
                 <button
