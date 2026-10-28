@@ -71,7 +71,7 @@ export function ScreenExploration() {
         </div> */}
       <div className="p-10">
         <h1 className="mb-6 text-2xl font-bold">Mouse Trap</h1>
-        <h5 className="mb-6 text-xl">My friend and I made a mouse trap simulation out of paper and glue in class. We used a ping-pong ball to represent the mouse. Our design ideas came from the crab trap and a traditional chinese paper folding game. We also made several prototypes to make sure it is working, and also made a step by step instruction guide to make sure others understand how its working and can learn to make one themselves.</h5>
+        <h5 className="mb-6 text-xl">I made a mouse trap simulation out of paper and glue. I used a ping-pong ball to represent the mouse. The design ideas came from the crab trap and a traditional chinese paper folding game. I also made several prototypes to make sure it is working, and also made a step by step instruction guide to make sure others understand how its working and can learn to make one themselves.</h5>
         <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2">
           <img src={publicAsset("/images/JHU/mouse-trap.jpg")} alt="Mouse trap" className="mx-auto max-h-80 w-full object-contain" />
           <img src={publicAsset("/images/JHU/box.jpg")} alt="Mouse trap" className="mx-auto max-h-80 w-full object-contain" />
