@@ -3,8 +3,8 @@ const projects = [
   {
     "id": "kX7mN2pQ9wR4vT6b",
     "title": "Mask Perlin Noise",
-    "text": "An interactive experiment utilizing Perlin noise algorithms to create organic, fluid masking effects over imagery. The project explores the intersection of mathematical randomness and visual structure.",
-    "teaser": "Organic masking effects driven by Perlin noise algorithms.",
+    "text": "JavaScript and p5.js, using Perlin noise as a moving mask over an image. I learned how noise can look organic, and how to blend pixels from two layers.",
+    "teaser": "I built this in JavaScript with p5.js. I used Perlin noise to make a moving mask over an image, so the picture appears and disappears in organic shapes. I learned how noise() can feel natural instead of random, and how to mix pixels from two layers on the canvas.",
     "thumbnailImage": "images/algorithmic-art/mask-perlin-noise.png",
     "mainImage": "images/kv/mask-perlin-noise-main.jpg",
     "image": "images/algorithmic-art/mask-perlin-noise.png",
@@ -20,8 +20,8 @@ const projects = [
   {
     "id": "yZ3fJ8hK4mN7pQ1r",
     "title": "Falling Sand",
-    "text": "A particle-based cellular automata simulation where different elements interact based on physics rules. Users can draw sand, water, and walls to see complex behaviors emerge from simple rules.",
-    "teaser": "A classic cellular automata physics simulation.",
+    "text": "JavaScript and p5.js, with a cellular automata grid for sand, water, and walls. I learned that simple neighbor rules can create real-looking physics.",
+    "teaser": "I wrote this in JavaScript with p5.js. It is a cellular automata grid where each cell is sand, water, or a wall, and simple rules make them fall and pile up. I learned how big patterns can come from tiny neighbor checks, and how to keep a grid simulation running smoothly.",
     "thumbnailImage": "images/algorithmic-art/fallingSand.png",
     "mainImage": "images/kv/falling-sand-main.jpg",
     "image": "images/algorithmic-art/fallingSand.png",
@@ -37,8 +37,8 @@ const projects = [
   {
     "id": "bV9cxW2zL5kT8jP4",
     "title": "Flowfield Colorful",
-    "text": "A vibrant visualization of vector fields where thousands of colorful particles follow underlying noise patterns to create abstract, painterly compositions.",
-    "teaser": "Vibrant particle systems guided by vector flow fields.",
+    "text": "JavaScript and p5.js, with particles following a Perlin-noise vector field. I learned how to store flow directions in a grid and paint with HSB color.",
+    "teaser": "I built this in JavaScript with p5.js. Thousands of particles follow a vector flow field made from Perlin noise, and their colors change as they move. I learned how to store direction in a grid of vectors, and how HSB color can make the motion look like a painting.",
     "thumbnailImage": "images/algorithmic-art/flowfield.png",
     "mainImage": "images/kv/flowfield-colorful-main.jpg",
     "image": "images/algorithmic-art/flowfield.png",
@@ -54,8 +54,8 @@ const projects = [
   {
     "id": "gH6nM3qR8vT1wZ7x",
     "title": "Body Segmentation Dots",
-    "text": "Using MediaPipe or TensorFlow.js, this project tracks human silhouettes in real-time and replaces the form with a dynamic grid of interactive dots.",
-    "teaser": "Real-time body tracking rendered through generative dots.",
+    "text": "JavaScript, p5.js, and ml5.js with a webcam. A segmentation model finds my body, and I draw it as dots. I learned how to use a browser ML model for interactive art.",
+    "teaser": "I used JavaScript, p5.js, and ml5.js with a webcam. A body-segmentation model finds my silhouette, and I draw it as a field of moving dots. I learned how to run a machine-learning model in the browser and how to turn pixels from the camera into generative graphics.",
     "thumbnailImage": "images/algorithmic-art/body-segmentation-dots.png",
     "mainImage": "images/kv/body-segmentation-dots-main.jpg",
     "image": "images/algorithmic-art/body-segmentation-dots.png",
@@ -71,8 +71,8 @@ const projects = [
   {
     "id": "dL4kP9jB2mC5nF8v",
     "title": "Body Segmentation BG",
-    "text": "A computer vision experiment that isolates the user from their background in real-time, allowing for creative background replacement and visual effects.",
-    "teaser": "AI-powered real-time background removal and replacement.",
+    "text": "JavaScript, p5.js, and ml5.js to cut me out of the webcam background. I learned how to keep camera frames, masks, and layers in sync for a live effect.",
+    "teaser": "I used JavaScript, p5.js, and ml5.js. The model separates me from the background in real time so I can replace the scene behind me. I learned how webcam frames, masks, and image layers have to stay in sync, and how computer vision can become a visual effect.",
     "thumbnailImage": "images/algorithmic-art/body-segmentation-bg.png",
     "mainImage": "images/kv/body-segmentation-bg-main.jpg",
     "image": "images/algorithmic-art/body-segmentation-bg.png",
@@ -87,8 +87,8 @@ const projects = [
   {
     "id": "qN8vC3mL7kR2wP5x",
     "title": "Perlin noise and flowfield",
-    "text": "An interactive generative art experiment that uses Perlin noise to create a dynamic flow field, guiding particles through continuously changing patterns and organic motion.",
-    "teaser": "Perlin noise drives a dynamic flow field that guides animated particles.",
+    "text": "JavaScript and p5.js: Perlin noise builds a flow field that particles follow. I learned how noise scale and vectors work together to create organic motion.",
+    "teaser": "I built this in JavaScript with p5.js. Perlin noise builds a changing flow field, and particles travel along those vectors. I learned how to combine noise, vectors, and animation in one sketch, and how small changes to the noise scale completely change the motion.",
     "thumbnailImage": "images/algorithmic-art/noise-flowfield.png",
     "mainImage": "images/algorithmic-art/noise-flowfield.png",
     "image": "images/algorithmic-art/noise-flowfield.png",
@@ -104,8 +104,8 @@ const projects = [
   {
     "id": "tN8vC3jL6kW5mQ2p",
     "title": "WebAlz",
-    "text": "A web-based data visualization or interactive tool designed for accessibility and technical analysis, providing a clean interface for complex data sets.",
-    "teaser": "Interactive web-based data visualization tool.",
+    "text": "HTML, CSS, and JavaScript for an interactive website. I learned page layout, UI styling, and how to make the page respond to the user.",
+    "teaser": "I made this website with HTML, CSS, and JavaScript. It is an interactive page for showing and exploring information in a clear layout. I learned how to structure a real webpage, style a UI, and make buttons and data on the page work together.",
     "thumbnailImage": "images/algorithmic-art/webalz.png",
     "mainImage": "images/kv/webalz-main.jpg",
     "image": null,
@@ -120,8 +120,8 @@ const projects = [
   {
     "id": "hV6xB2mR9kP4wQ7z",
     "title": "Color Painter",
-    "text": "An interactive generative painting experiment that uses programmed color interactions and user input to create evolving abstract compositions.",
-    "teaser": "An interactive canvas for creating colorful procedural compositions.",
+    "text": "JavaScript and p5.js, painting with the mouse as colors mix on the canvas. I learned mouse input, color modes, and turning drawing into a generative system.",
+    "teaser": "I built this in JavaScript with p5.js. Mouse movement paints the canvas with colors that mix and change over time. I learned how to handle mouse input, how color modes work, and how to turn drawing into a small generative system.",
     "thumbnailImage": "images/algorithmic-art/color-painter.png",
     "mainImage": "images/algorithmic-art/color-painter.png",
     "image": "images/algorithmic-art/color-painter.png",
@@ -133,12 +133,12 @@ const projects = [
     "type": "experiment",
     "link": "https://heiji329810.github.io/painter/"
   },
-  
+
     {
     "id": "aP7kL2mQ9xR4vT6z",
     "title": "Blue Grid Painter",
-    "text": "An interactive generative painting experiment that uses a structured grid to create layered blue compositions through user interaction and procedural patterns.",
-    "teaser": "A generative painting system built from structured grid patterns.",
+    "text": "JavaScript and p5.js, painting in blue on a cell grid with nested loops. I learned how a grid, layers, and mouse events can build a picture.",
+    "teaser": "I wrote this in JavaScript with p5.js. A grid of cells fills with blue layers as you interact, using nested loops and simple rules. I learned how a grid can become a painting tool, and how layers and mouse events can build a composition step by step.",
     "thumbnailImage": "images/algorithmic-art/blue-grid-painter.png",
     "mainImage": "images/algorithmic-art/blue-grid-painter.png",
     "image": "images/algorithmic-art/blue-grid-painter.png",
@@ -153,8 +153,8 @@ const projects = [
   {
     "id": "fQ1wR7zX4kT6mP9b",
     "title": "Jellyfish Simulation",
-    "text": "An interactive digital canvas that transforms mouse movements or images into a series of pointillist dots, mimicking a physical painting style through code.",
-    "teaser": "A pointillism-inspired interactive painting tool.",
+    "text": "JavaScript and p5.js, with particles and sine-wave motion that drift like jellyfish. I learned how math can look organic, and how to animate many objects at once.",
+    "teaser": "I built this in JavaScript with p5.js. I used particles, sine-wave motion, and soft trails to make shapes that drift like jellyfish. I learned how to fake organic movement with math, and how to keep many moving parts on the canvas at once.",
     "thumbnailImage": "images/algorithmic-art/jellyfish.png",
     "mainImage": "images/kv/jellyfish-simulation-main.jpg",
     "image": null,
@@ -169,8 +169,8 @@ const projects = [
   {
     "id": "cM8nQ3wR5vT1xZ7k",
     "title": "Chinese Painting Effect",
-    "text": "A digital art experiment that recreates visual characteristics of traditional Chinese ink painting through procedural drawing, texture, and composition.",
-    "teaser": "A generative interpretation of traditional Chinese ink painting.",
+    "text": "JavaScript and p5.js, simulating Chinese ink painting with brush strokes and texture. I learned how to fake a brush in code and use empty space like ink painting.",
+    "teaser": "I wrote this in JavaScript with p5.js. I tried to recreate ink-wash painting with brush-like strokes, texture, and empty space. I learned how to simulate a brush in code, and how traditional painting ideas like ink and composition can live in a digital sketch.",
     "thumbnailImage": "images/algorithmic-art/chinese-painting-effect.png",
     "mainImage": "images/algorithmic-art/chinese-painting-effect.png",
     "image": "images/algorithmic-art/chinese-painting-effect.png",
@@ -186,8 +186,8 @@ const projects = [
   {
     "id": "qF4jK8mP2wN6rT9x",
     "title": "Bouncing ball",
-    "text": "An interactive visual experiment inspired by electronic circuits, using connected paths and geometric elements to explore the relationship between computation, structure, and visual design.",
-    "teaser": "An interactive generative playground inspired by electronic circuits.",
+    "text": "JavaScript and p5.js, with velocity, acceleration, and wall collisions. I learned how to code a bouncing object with simple physics.",
+    "teaser": "I built this in JavaScript with p5.js. A ball moves with velocity and acceleration and bounces when it hits the edges of the canvas. I learned basic physics in code: vectors, collision with walls, and how to keep animation stable from frame to frame.",
     "thumbnailImage": "images/algorithmic-art/falling-ball.png",
     "mainImage": "images/algorithmic-art/circuit-playground.png",
     "image": "images/algorithmic-art/circuit-playground.png",
@@ -203,8 +203,8 @@ const projects = [
   {
     "id": "uN5rC8kL3mQ7xP2v",
     "title": "Colorful Grid",
-    "text": "A generative art experiment that transforms a structured grid into a colorful visual composition through procedural color and pattern generation.",
-    "teaser": "A colorful procedural composition built from a dynamic grid.",
+    "text": "JavaScript and p5.js, filling a grid with nested loops and color rules. I learned 2D grids, loops, and how simple rules can make a full picture.",
+    "teaser": "I wrote this in JavaScript with p5.js. Nested loops draw a grid, and each cell gets a color from a rule I programmed. I learned how loops and 2D grids work, and how small color rules can fill a whole composition.",
     "thumbnailImage": "images/algorithmic-art/colorful-grid.png",
     "mainImage": "images/algorithmic-art/colorful-grid.png",
     "image": "images/algorithmic-art/colorful-grid.png",

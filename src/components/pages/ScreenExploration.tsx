@@ -109,7 +109,7 @@ export function ScreenExploration() {
         </div>
         <h5 className="mb-6 text-xl">In the end, we chose the truss built by one of our teammates, which is like an arch. And after that we started building.</h5>
         <div className="mx-auto mb-10 grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
-          <img src="" alt="TALIA's" className="mx-auto max-h-80 w-full object-contain" />
+          <img src={publicAsset("/images/JHU/Talia's-design.png")} alt="TALIA's" className="mx-auto max-h-80 w-full object-contain" />
           <img src={publicAsset("/images/JHU/spaghetti-bridge2.jpg")} alt="spaghetti bridge" className="mx-auto max-h-80 w-full object-contain" />
           <img src={publicAsset("/images/JHU/spaghetti-bridge5.jpg")} alt="spaghetti bridge" className="mx-auto max-h-80 w-full object-contain" />
         </div>
