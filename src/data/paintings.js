@@ -38,7 +38,7 @@ const paintings = [
 {
   "id": "r5Jm8Vx2Nc7Qp4Ls",
   "title": "Devil and Woods",
-  "text": "This is a painting showing how people are damaging the forest. It was inspired by the news of the Australia forest fires that caused the koalas and kangaroos to lose their homes. I made the shadow of the ",
+  "text": "This is a painting showing how people are damaging the forest. It was inspired by the news of the Australia forest fires that caused the koalas and kangaroos to lose their homes. I made the shadow of the person with a match in his hands look like a devil to show that people can really harm the environment if we don't take any actions to protect them. ",
   "teaser": "Expressive marks and repeated forms create visual rhythm.",
   "thumbnailImage": "images/paintings/devil-and-forest.jpg",
   "image": "images/paintings/devil-and-forest.jpg"
