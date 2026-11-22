@@ -102,7 +102,7 @@ const projects = [
   },
 
   {
-    "id": "tN8vC3jL6kW5mQ2p",
+    "id": "q7M2xP9kL4vR8nC3",
     "title": "WebAlz",
     "text": "HTML, CSS, and JavaScript for an interactive website. I learned page layout, UI styling, and how to make the page respond to the user.",
     "teaser": "I made this website with HTML, CSS, and JavaScript. It is an interactive page for showing and exploring information in a clear layout. I learned how to structure a real webpage, style a UI, and make buttons and data on the page work together.",
@@ -116,6 +116,23 @@ const projects = [
     "isFeaturedHomePage": true,
     "type": "project",
     "link": "https://heiji329810.github.io/webAlz/"
+  },
+
+  {
+    "id": "tN8vC3jL6kW5mQ2p",
+    "title": "Student Management Dashboard",
+    "text": "React, Nodejs, shadcn, SQL, HTML, CSS, TypeScript and JavaScript for an interactive website. I learned UI styling, and how to build a full-stack application, including thinking further about specific user needs and designing the database with help from AI. This project used Astra and cursor to support the styling and database management, as well as building up a server and deploying the app.",
+    "teaser": "React, Nodejs, shadcn, SQL, HTML, CSS, TypeScript and JavaScript for an interactive website. I learned UI styling, and how to build a full-stack application, including thinking further about specific user needs and designing the database with help from AI. This project used Astra and cursor to support the styling and database management, as well as building up a server and deploying the app.",
+    "thumbnailImage": "images/algorithmic-art/student-manage-dash.png",
+    "mainImage": "images/kv/webalz-main.jpg",
+    "image": null,
+    "tags": ["data viz", "web tool", "database", "ui-ux"],
+    "video": "images/algorithmic-art/student-manage-dash.mp4",
+    "createdAt": "2024-02-10T13:00:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": true,
+    "type": "project",
+    "link": ""
   },
   {
     "id": "hV6xB2mR9kP4wQ7z",
@@ -133,7 +150,22 @@ const projects = [
     "type": "experiment",
     "link": "https://heiji329810.github.io/painter/"
   },
-
+  {
+    "id": "fQ1wR7zX4kT6mP9b",
+    "title": "Jellyfish Simulation",
+    "text": "JavaScript and p5.js, with particles and sine-wave motion that drift like jellyfish. I learned how math can look organic, and how to animate many objects at once.",
+    "teaser": "I built this in JavaScript with p5.js. I used particles, sine-wave motion, and soft trails to make shapes that drift like jellyfish. I learned how to fake organic movement with math, and how to keep many moving parts on the canvas at once.",
+    "thumbnailImage": "images/algorithmic-art/jellyfish.png",
+    "mainImage": "images/kv/jellyfish-simulation-main.jpg",
+    "image": null,
+    "tags": ["canvas", "brush effects", "pointillism", "creative tool"],
+    "video": "images/algorithmic-art/jellyfish.mov",
+    "createdAt": "2024-02-05T08:00:00Z",
+    "isPublished": true,
+    "isFeaturedHomePage": false,
+    "type": "experiment",
+    "link": ""
+  },
     {
     "id": "aP7kL2mQ9xR4vT6z",
     "title": "Blue Grid Painter",
@@ -151,20 +183,20 @@ const projects = [
     "link": "https://heiji329810.github.io/projects/"
   },
   {
-    "id": "fQ1wR7zX4kT6mP9b",
-    "title": "Jellyfish Simulation",
-    "text": "JavaScript and p5.js, with particles and sine-wave motion that drift like jellyfish. I learned how math can look organic, and how to animate many objects at once.",
-    "teaser": "I built this in JavaScript with p5.js. I used particles, sine-wave motion, and soft trails to make shapes that drift like jellyfish. I learned how to fake organic movement with math, and how to keep many moving parts on the canvas at once.",
-    "thumbnailImage": "images/algorithmic-art/jellyfish.png",
+    "id": "hK5nT2vQ8xL3pR6m",
+    "title": "Snowflake Simulation",
+    "text": "JavaScript and p5.js, with particles, snowflake class, and sine-wave motion that makes the effect of the trajectory of the snowflake. I learned how to use trigonometry and vectors to create a realistic snowflake effect.",
+    "teaser": "JavaScript and p5.js, with particles, snowflake class, and sine-wave motion that makes the effect of the trajectory of the snowflake. I learned how to use trigonometry and vectors to create a realistic snowflake effect. And also, it is interesting that by using a division and changing the denominator by the size of the snowflake, I can make it look more real because bigger snowflakes will fall slower.",
+    "thumbnailImage": "images/algorithmic-art/snowflake-simulation.png",
     "mainImage": "images/kv/jellyfish-simulation-main.jpg",
     "image": null,
     "tags": ["canvas", "brush effects", "pointillism", "creative tool"],
-    "video": "images/algorithmic-art/jellyfish.mov",
+    "video": "images/algorithmic-art/snowflake-simulation.mov",
     "createdAt": "2024-02-05T08:00:00Z",
     "isPublished": true,
     "isFeaturedHomePage": false,
     "type": "experiment",
-    "link": ""
+    "link": "https://heiji329810.github.io/snowflake-simulation/"
   },
   {
     "id": "cM8nQ3wR5vT1xZ7k",
