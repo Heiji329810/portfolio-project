@@ -133,6 +133,11 @@ export function ScreenCathouse() {
             alt="Temperature and humidity"
             className="mx-auto max-h-80 w-full object-contain"
           />
+          <img
+            src={publicAsset("/images/cathouse/3D-box4.png")}
+            alt="Temperature and humidity"
+            className="mx-auto max-h-80 w-full object-contain"
+          />
         </div>
         </div>
 
